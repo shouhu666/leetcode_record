@@ -13,8 +13,6 @@ class Solution:
                 continue
             if s[index_1].lower() != s[index_2].lower():
                 return False
-            elif index_1 == index_2 or index_1 == index_2 - 1:
-                return True
             else:
                 index_1 += 1
                 index_2 -= 1
